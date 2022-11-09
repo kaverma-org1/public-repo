@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:    
     - uses: actions/checkout@v2
-    - uses: kaverma-org2/private-action@main
+    - uses: kaverma-org1/internal-action@main
