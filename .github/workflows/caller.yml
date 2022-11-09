@@ -1,0 +1,7 @@
+on: [workflow_dispatch]
+
+jobs:
+  call-workflow-passing-data:
+    uses: <owner>/<action_repo>/.github/workflows/called.yml@main
+    with:
+      username: mona
